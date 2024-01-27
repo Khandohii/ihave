@@ -1,0 +1,357 @@
+@media (max-width: 767px){
+    /*---------------
+        Main styles
+    ---------------*/
+    .form .line_flex > *{
+        width: 100%;
+    }
+
+    .form .line_form.plug{
+        display: none;
+    }
+
+
+    .text_block h2{
+        font-size: 23px;
+    }
+
+
+    .slider-pagination .slider-dot + .slider-dot{
+        margin-left: 15px;
+    }
+
+
+    .main_title{
+        font-size: 36px;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+    header .menu .item{
+        display: block;
+
+        width: 100%;
+    }
+
+    header .menu .item + .item{
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider .title{
+        font-size: 44px;
+    }
+
+    .main_slider .line_links .controls .slider-button-prev,
+    .main_slider .line_links .controls .slider-button-next{
+        right: auto;
+
+        width: 50px;
+        height: 50px;
+    }
+
+    .main_slider .line_links .pagination{
+        margin-left: 10px;
+    }
+
+    .main_slider .line_links .link_btn button{
+        padding: 0 10px;
+    }
+
+
+    .sect_questions .form .agree{
+        margin-top: 30px;
+    }
+
+
+    .sect_form .box_form .col_l{
+        padding: 30px 30px 0;
+    }
+
+    .sect_form .box_form .main_title{
+        font-size: 24px;
+    }
+
+    .sect_form .box_form .form .line_flex > *{
+        width: 100%;
+    }
+
+    .sect_form .box_form .form .agree{
+        margin-top: 30px;
+    }
+
+
+    .for_whom .note{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0;
+        order: 0;
+        max-width: 100%;
+    }
+
+    .for_whom .col_l{
+        width: 100%;
+    }
+
+    .for_whom .slider-pagination{
+        bottom: 0;
+    }
+
+    .for_whom .pagination{
+        margin-left: 15px;
+    }
+
+    .for_whom .controls{
+        margin-left: 15px;
+    }
+
+    .for_whom .controls .slider-button-prev,
+    .for_whom .controls .slider-button-next{
+        right: auto;
+
+        width: 50px;
+    }
+
+    .for_whom .main_title{
+        font-size: 34px;
+    }
+
+
+    .travel_schedule .grid{
+        --items: 1;
+    }
+
+    .travel_plan .slider_progress .slide{
+        padding-right: 15px;
+    }
+
+    .travel_plan .slider .slider-button-prev{
+        border-left-color: #fff;
+        border-top-color: #fff;
+        border-bottom-color: #fff;
+    }
+
+    .travel_plan .slider .slider-button-next{
+        border-right-color: #fff;
+        border-top-color: #fff;
+        border-bottom-color: #fff;
+    }
+
+    .travel_plan .slider .slide .wrap_img{
+        display: block;
+
+        width: 100%;
+        padding-bottom: 50%;
+    }
+
+    .travel_plan .slider .slide .data{
+        width: 100%;
+        padding: 30px;
+    }
+
+
+    .box_curator .col_l{
+        padding: 30px;
+    }
+
+    .box_curator .col_r{
+        padding: 30px;
+    }
+
+    .box_curator .data{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    .sect_living .main_title{
+        max-width: 580px;
+    }
+
+    .sect_living .item .wrap_img{
+        width: 100%;
+        padding-bottom: 50%;
+    }
+
+    .sect_living .item.large .wrap_img {
+        width: 100%;
+    }
+
+    .sect_living .item .data{
+        width: 100%;
+    }
+
+    .sect_living .item.large .data {
+        width: 100%;
+    }
+
+
+    .trip_gallery .slider{
+        padding-bottom: 50px;
+
+        --slides: 3;
+    }
+
+    .trip_gallery .slider-button-prev,
+    .trip_gallery .slider-button-next{
+        display: none;
+    }
+
+    .trip_gallery .slider-pagination{
+        bottom: 0;
+    }
+
+
+    .reviews .slider .slider-button-prev,
+    .reviews .slider .slider-button-next{
+        display: none;
+    }
+
+    .reviews .main_title{
+        padding-right: 0;
+    }
+
+
+    .prices .grid{
+        --items: 1;
+    }
+
+
+    .sect_inclusive .columns{
+        --items: 1;
+    }
+
+
+    .other_travels .slider .slider-button-prev,
+    .other_travels .slider .slider-button-next{
+        display: none;
+    }
+
+    .other_travels .slide{
+        min-height: 300px;
+    }
+
+    .other_travels .slide .data{
+        padding: 28px;
+    }
+
+
+    .advantages .grid{
+        --items: 2;
+    }
+
+    .advantages .item .name{
+        margin-top: 15px;
+    }
+
+
+    .sect_contacts{
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 50px;
+        padding: 0;
+
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .sect_contacts .map{
+        top: 0;
+    }
+
+    .sect_contacts .map:before{
+        height: 30px;
+    }
+
+    .sect_contacts .map:after{
+        height: 30px;
+    }
+
+    .sect_contacts .box{
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    .sect_contacts .map{
+        position: relative;
+
+        height: 300px;
+        margin-top: 30px;
+
+        order: 5;
+    }
+
+
+    .gallery{
+        margin-top: 30px;
+    }
+
+    .gallery .slider .slider-button-next,
+    .gallery .slider .slider-button-prev{
+        width: 38px;
+        height: 38px;
+        margin-top: -19px;
+    }
+
+    .gallery .slider .slider-button-next svg,
+    .gallery .slider .slider-button-prev svg{
+        width: 9px;
+        height: 14px;
+    }
+
+    .gallery .slide a:after{
+        width: 38px;
+        height: 38px;
+        margin-top: -19px;
+        margin-left: -19px;
+        background-size: 16px auto;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .tel{
+        margin-left: 24px;
+    }
+
+    footer .tel a .icon{
+        display: none;
+    }
+
+    footer .callback_btn{
+        width: 159px;
+        margin-left: 24px;
+    }
+
+    footer .callback_btn button{
+        padding: 0 10px;
+    }
+
+
+    .modal{
+        padding: 30px;
+    }
+
+    .modal_title{
+        font-size: 24px;
+
+        margin-bottom: 22px;
+    }
+
+    .modal_title b{
+        font-size: 30px;
+    }
+
+    .modal_review .data{
+        width: 100%;
+        max-width: 100%;
+        margin-top: 25px;
+        margin-left: 0;
+    }
+}

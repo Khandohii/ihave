@@ -1,0 +1,228 @@
+@media (max-width: 479px){
+    /*---------------
+        Main styles
+    ---------------*/
+    .main_title{
+        font-size: 30px;
+    }
+
+    .link_btn button,
+    .link_btn a{
+        width: 100%;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+    header .wrap_logo{
+        width: 204px;
+    }
+
+    header .wrap_logo .slogan{
+        font-size: 12px;
+
+        width: 127px;
+    }
+
+    header .contact .tel{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .mob_menu_link{
+        margin-left: 8px;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider {
+        min-height: 1px;
+        padding: 130px 0 240px;
+    }
+
+    .main_slider .title{
+        font-size: 32px;
+
+        padding-right: 0;
+    }
+
+    .main_slider .line_links{
+        flex-wrap: wrap;
+    }
+
+    .main_slider .line_links .link_btn{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main_slider .line_links .link_btn button{
+        width: 100%;
+    }
+
+    .main_slider .line_links .pagination{
+        margin-left: 25px;
+    }
+
+
+    .for_whom .main_title{
+        font-size: 26px;
+    }
+
+    .for_whom .slider-pagination{
+        justify-content: center;
+    }
+
+    .for_whom .note{
+        width: 100%;
+        max-width: 100%;
+        order: 3;
+    }
+
+
+    .box_curator .title{
+        font-size: 30px;
+    }
+
+
+    .travel_schedule .grid .item .desc{
+        font-size: 14px;
+    }
+
+
+    .travel_plan .progress_slider .slide{
+        padding-right: 10px;
+        min-width: 95px;
+    }
+
+    .travel_plan .progress_slider .slide .day{
+        font-size: 16px;
+        line-height: 24px;
+
+        height: 24px;
+    }
+
+    .travel_plan .slider_progress .swiper-wrapper:before{
+        top: 40px;
+    }
+
+    .travel_plan .slider_progress .swiper-wrapper:after{
+        top: 40px;
+    }
+
+    .travel_plan .progress_slider .slide .time{
+        font-size: 12px;
+    }
+
+    .travel_plan .progress_slider .slide .circle{
+        margin: 12px 0;
+    }
+
+
+    .sect_living .item .facilities .items{
+        --items: 1;
+    }
+
+
+    .trip_gallery .slider{
+        --slides: 2;
+    }
+
+    .trip_gallery .slide.large .img{
+        padding-bottom: 80.6%;
+    }
+
+
+    .other_travels .slide .wrap_img{
+        width: 100%;
+        padding-bottom: 70%;
+    }
+
+    .other_travels .slide .data{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .other_travels .slide .name{
+        max-width: 100%;
+    }
+
+    .other_travels .slide .desc{
+        max-width: 100%;
+    }
+
+    .other_travels .slide .link_btn{
+        margin-top: 30px;
+    }
+
+
+    .sect_contacts .box{
+        padding: 30px;
+    }
+
+    .sect_contacts .map{
+        pointer-events: none;
+    }
+
+    .sect_contacts .name_comp{
+        margin-bottom: 15px;
+    }
+
+    .sect_contacts .line_flex .line{
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+
+    .reviews .review{
+        padding: 30px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer{
+        padding: 50px 0;
+    }
+
+    footer .cont{
+        flex-direction: column;
+
+        align-items: center;
+        align-content: center;
+        justify-content: flex-start;
+    }
+
+    footer .wrap_logo .logo{
+        width: 65px;
+    }
+
+    footer .logo2{
+        margin: 30px 0 0;
+    }
+
+    footer .callback_btn{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    footer .callback_btn button{
+        width: 159px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+    .fancybox-slide--html .fancybox-close-small{
+        top: 8px;
+        right: 5px;
+    }
+    .fancybox-slide--html .fancybox-close-small{
+        width: 35px;
+        height: 35px;
+        padding: 0;
+    }
+}

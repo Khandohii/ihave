@@ -1,0 +1,428 @@
+@media (max-width: 1024px){
+    /*---------------
+        Main styles
+    ---------------*/
+    .form .line_flex > *{
+        width: calc(100% / 3 - 15px);
+    }
+
+
+    .general_title.line:before{
+        display: none;
+    }
+
+
+    .main_title{
+        font-size: 42px;
+    }
+
+
+    .slider-button-prev,
+    .slider-button-next{
+        top: -120px;
+    }
+
+    .slider-button-prev svg,
+    .slider-button-next svg{
+        transition: none;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+    header{
+        padding: 15px 0;
+
+        transition: .2s linear;
+        background: rgba(255, 255, 255, .0);
+    }
+
+    header.fixed{
+        animation: none;
+    }
+
+    header:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: #fff;
+        opacity: 0;
+        transition: .2s linear;
+        visibility: hidden;
+    }
+
+    header.active_menu:before{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    header.active_menu{
+        color: #000;
+        position: fixed;
+    }
+
+    header .cont{
+        position: relative;
+    }
+
+    header.active_menu .logo {
+        --color-logo: #FF5C00;
+    }
+
+    header .wrap_menu{
+        color: #000;
+
+        position: fixed;
+        top: 83px;
+        left: 0;
+
+        display: block;
+        visibility: hidden;
+        overflow-y: auto;
+
+        width: 100%;
+        height: calc(100% - 83px);
+        padding: 30px 15px;
+        background: #fff;
+
+        transition: .2s linear;
+
+        opacity: 0;
+        border-top: 1px solid #fff;
+    }
+
+    header .wrap_menu.visible{
+        visibility: visible;
+        border-color: #f2f2f2;
+
+        opacity: 1;
+    }
+
+    header .menu .item + .item{
+        margin-left: 30px;
+    }
+
+    header .contact{
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+    header .contact .tel{
+        margin-right: 30px;
+    }
+
+    header .socials{
+        position: relative;
+        top: auto;
+        right: auto;
+
+        display: flex;
+
+        margin-top: 30px;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+    }
+
+    header.fixed .socials{
+        display: flex;
+    }
+
+    header .socials a{
+        color: #D4D4D4;
+        opacity: 1;
+    }
+
+    header .socials a:hover{
+        color: #FF5C00;
+    }
+
+    header .socials a + a{
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    header .mob_tel{
+        display: block;
+    }
+
+    .mob_menu_link{
+        display: block;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider{
+        min-height: 730px;
+        padding: 150px 0 260px;
+    }
+
+    .main_slider .title{
+        font-size: 45px;
+    }
+
+
+    .sect_form .box_form .main_title{
+        font-size: 25px;
+    }
+
+
+    .for_whom{
+        margin-top: 80px;
+    }
+
+    .for_whom .swiper{
+        padding-bottom: 50px;
+    }
+
+    .for_whom .pagination{
+        display: none;
+    }
+
+    .for_whom .controls {
+        display: none;
+    }
+
+    .for_whom .columns{
+        flex-wrap: wrap;
+    }
+
+    .for_whom .note{
+        max-width: 212px;
+        margin-top: -10px;
+    }
+
+    .for_whom .col_l{
+        width: calc(100% - 242px);
+        max-width: 632px;
+    }
+
+    .for_whom .main_title{
+        font-size: 36px;
+    }
+
+
+    .travel_schedule{
+        margin-top: 80px;
+    }
+
+    .travel_schedule .grid{
+        margin-top: 50px;
+    }
+
+
+    .travel_plan{
+        margin-top: 80px;
+    }
+
+    .travel_plan .slider_progress{
+        margin-top: 50px;
+    }
+
+    .travel_plan .slider .slide .wrap_img{
+        width: 40%;
+    }
+
+    .travel_plan .slider .slide .data{
+        width: 60%;
+        padding: 25px;
+    }
+
+    .travel_plan .slider .slide .schedule:before{
+        left: 64px;
+    }
+
+    .travel_plan .slider .slide .schedule .line_data{
+        margin-left: 10px;
+        padding-left: 20px;
+    }
+
+
+    .box_curator .col_l{
+        width: 100%;
+    }
+
+    .box_curator .col_r{
+        width: 100%;
+
+        border-top: 1px solid #efefef;
+        border-left: none;
+    }
+
+
+    .sect_living{
+        margin-top: 80px;
+    }
+
+    .sect_living .main_title{
+        max-width: 670px;
+    }
+
+    .sect_living .grid{
+        margin-top: 50px;
+
+        --items: 1;
+    }
+
+    .sect_living .item.large .wrap_img {
+        width: 45%;
+    }
+
+    .sect_living .item .data{
+        padding: 30px;
+    }
+
+    .sect_living .item.large .data {
+        width: 55%;
+    }
+
+    .sect_living .hidden_desk{
+        display: block;
+    }
+
+    .sect_living .hidden_mob{
+        display: none;
+    }
+
+
+    .trip_gallery{
+        margin-top: 80px;
+    }
+
+    .trip_gallery .slider{
+        --margin: 16px;
+        margin-top: 50px;
+        padding-bottom: 90px;
+
+        --slides: 4;
+    }
+
+    .trip_gallery .slide .img + .img{
+        margin-top: 16px;
+    }
+
+    .trip_gallery .slide .img.long{
+        padding-bottom: calc(159.421% + 16px);
+    }
+
+    .trip_gallery .slide.large .img{
+        padding-bottom: 80.4%;
+    }
+
+
+    .sect_questions{
+        margin-top: 80px;
+        padding-top: 75px;
+    }
+
+    .sect_questions .form{
+        margin-top: 50px;
+    }
+
+
+    .reviews{
+        margin-top: 80px;
+    }
+
+    .reviews .slider{
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .prices{
+        margin-top: 80px;
+    }
+
+    .prices .grid{
+        margin-top: 50px;
+    }
+
+    .prices .item{
+        padding: 30px;
+    }
+
+    .prices .item .price{
+        font-size: 32px;
+    }
+
+    .prices .item .name{
+        font-size: 32px;
+    }
+
+
+    .other_travels{
+        margin-top: 80px;
+    }
+
+    .other_travels .slider{
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .advantages .grid{
+        margin-top: 50px;
+        --margin-left: 30px;
+    }
+
+
+    .sect_form{
+        margin-top: 80px;
+    }
+
+
+    .faq{
+        margin-top: 80px;
+    }
+
+    .faq .accordion{
+        margin-top: 50px;
+    }
+
+
+    .sect_contacts{
+        margin-top: 80px;
+    }
+
+    .sect_contacts .box{
+        margin-top: 50px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .cont{
+        justify-content: center;
+    }
+
+    footer .logo2{
+        margin-right: 0;
+    }
+
+    footer .contact{
+        width: 100%;
+        margin-top: 30px;
+
+        justify-content: center;
+    }
+
+    footer .socials{
+        margin-left: 0;
+    }
+
+
+    .modal_title{
+        font-size: 26px;
+    }
+
+    .modal_title b{
+        font-size: 34px;
+    }
+}

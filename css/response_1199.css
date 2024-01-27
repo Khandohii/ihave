@@ -1,0 +1,184 @@
+@media (max-width: 1199px){
+    /*---------------
+        Main styles
+    ---------------*/
+    .form .input[name='name']{
+        padding-left: 50px;
+
+        background-position: 20px 50%;
+    }
+
+
+    .slider-button-next{
+        right: 0;
+        left: auto;
+    }
+
+    .slider-button-prev{
+        right: 63px;
+        left: auto;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+    header{
+        padding: 25px 0;
+    }
+
+    header .wrap_logo{
+        width: 225px;
+    }
+
+    header .logo{
+        width: 65px;
+    }
+
+    header .wrap_menu{
+        width: calc(100% - 250px);
+    }
+
+    header .menu .item + .item{
+        margin-left: 15px;
+    }
+
+    header .contact{
+        margin-left: 15px;
+    }
+
+    header .contact .tel{
+        margin-right: 15px;
+    }
+
+    header .contact .tel a .icon{
+        display: none;
+    }
+
+    header .callback_btn{
+        width: 148px;
+    }
+
+    header .callback_btn button{
+        font-size: 16px;
+        border-collapse: collapse;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider{
+        min-height: 850px;
+        padding: 200px 0 300px;
+    }
+
+    .main_slider .title{
+        font-size: 60px;
+    }
+
+
+    .sect_form .box_form .col_l{
+        width: 100%;
+        padding: 30px 30px 10px;
+    }
+
+    .sect_form .box_form .main_title{
+        font-size: 27px;
+    }
+
+    .sect_form .box_form .form .title{
+        display: none;
+    }
+
+    .sect_form .box_form .form{
+        padding: 30px;
+        width: 100%;
+        padding-top: 20px;
+
+        border-left: none;
+    }
+
+    .sect_form .box_form:before{
+        bottom: -150px;
+    }
+
+
+    .for_whom .note{
+        padding: 20px;
+    }
+
+
+    .travel_schedule .grid{
+        --items: 2;
+    }
+
+
+    .box_curator .col_l{
+        padding: 35px 25px;
+    }
+
+    .box_curator .col_r{
+        padding: 35px 25px;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        align-content: stretch;
+        flex-direction: column;
+    }
+
+
+    .sect_questions .form{
+        padding: 30px;
+    }
+
+
+    .trip_gallery .slider{
+        --slides: 5;
+    }
+
+    .trip_gallery .slider-button-prev{
+        right: auto;
+        left: 0;
+
+        margin: 0;
+    }
+
+    .trip_gallery .slider-button-next{
+        right: auto;
+        left: 63px;
+
+        margin: 0;
+    }
+
+
+    .reviews .review{
+        padding: 20px;
+    }
+
+    .reviews .review .link_btn{
+        margin-top: 15px;
+    }
+
+    .reviews .review .link_btn button{
+        font-size: 12px;
+
+        padding: 0 5px;
+    }
+
+
+    .prices .item .desc{
+        min-height: 42px;
+    }
+
+
+    .other_travels .slide .link_btn button,
+    .other_travels .slide .link_btn a{
+        padding: 0 20px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .tel{
+        margin-left: 44px;
+    }
+}
