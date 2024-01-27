@@ -1,5 +1,9 @@
 ## Project Overview: Responsive Landing Page for Travel Agency 🌍
 
+Year of development 2021
+
+Demo  [https://khandohii.github.io/ihave/](https://khandohii.github.io/ihave/)
+
 ### Objective:
 The task was to develop a responsive landing page for a travel agency, starting from scratch. Key requirements included cross-browser compatibility, responsiveness, and a commitment to high-quality design.
 
